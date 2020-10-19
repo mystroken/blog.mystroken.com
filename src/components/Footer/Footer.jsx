@@ -18,7 +18,7 @@ class Footer extends Component {
           <h4>{copyright}</h4>
 
           <Link to={url}>
-            <button>Subscribe</button>
+            <button type="button">Subscribe</button>
           </Link>
           <h4>
             Based on

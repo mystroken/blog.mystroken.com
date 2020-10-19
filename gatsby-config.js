@@ -115,7 +115,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "Mystro Ken Blog | RSS";
+          ret.generator = config.siteRssTitle;
           return ret;
         },
         query: `
