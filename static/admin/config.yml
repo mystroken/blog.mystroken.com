@@ -9,8 +9,8 @@ public_folder: "assets"
 
 collections:
   - name: "blog"
-    label: "Post"
-    folder: "content/posts"
+    label: "Article"
+    folder: "content/articles"
     create: true
     slug: "{{slug}}"
     media_folder: ""
