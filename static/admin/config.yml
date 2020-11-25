@@ -10,9 +10,11 @@ public_folder: "assets"
 collections:
   - name: "blog"
     label: "Post"
-    folder: "content"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
